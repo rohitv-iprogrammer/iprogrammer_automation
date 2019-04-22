@@ -1,0 +1,43 @@
+<Environment>
+	
+	
+	   <APP>IDEA</APP>
+	   <TESTTYPE>REGRESSION</TESTTYPE>	   	  
+	   <ENVIRONMENT>NP01</ENVIRONMENT>
+
+	<!-- ##  Common to All  ## -->
+	
+	<!-- ********* MANDATORY PARAMETERS ********* -->
+
+	   <!-- BROWSER = FF (for FireFox),IE (for InternetExplorer), CH(for Chrome) Default: FF -->
+	   <BROWSER>MOBILE_IOS</BROWSER>
+				<!-- WebDriver Settings -->
+		<STARTFROMHOMEPAGE>NO</STARTFROMHOMEPAGE>
+		<CLEARCOOKIEFOREACHTEST>NO</CLEARCOOKIEFOREACHTEST> 
+		<ELEMENTWAITTIMEOUT>60</ELEMENTWAITTIMEOUT> 
+		<ELEMENTNOTPRESENTTIMEOUT>TDB</ELEMENTNOTPRESENTTIMEOUT>
+		<PAGELOADTIMEOUT>60</PAGELOADTIMEOUT> 
+		<JAVASCRIPTTIMEOUT>60</JAVASCRIPTTIMEOUT> 
+		<STOPIFFAILSTEPSCOUNT>5</STOPIFFAILSTEPSCOUNT>
+		<VERIFYJAVASCRIPTERRORS>YES</VERIFYJAVASCRIPTERRORS> 
+		<ALERTAUTOACCEPT>NO</ALERTAUTOACCEPT> 
+	   <OBJREPOSITORY>/rohitv/Documents/iprogrammerAutomation/Repository/</OBJREPOSITORY>
+	   <SCRIPTS>/rohitv/Documents/iprogrammerAutomation/Scripts/</SCRIPTS>
+	   <SUITE>/rohitv/Documents/iprogrammerAutomation/Suites/</SUITE>
+	   <LOGPATH>/rohitv/Documents/iprogrammerAutomation/Log/</LOGPATH>
+	   <EXEREPPATH>/rohitv/Documents/iprogrammerAutomation/Reports/</EXEREPPATH>
+	   <TEMPLATEPATH>/rohitv/Documents/iprogrammerAutomation/Templates</TEMPLATEPATH>
+	   <RESULTSTOEXCEL>All</RESULTSTOEXCEL> 
+	   <SCREENSHOTNAME>WDss</SCREENSHOTNAME> 
+   <!--firefox profile-->
+      <!-- <FIREFOXPROFILE>"C:\Users\Administrator.D2KKF6BS\AppData\Roaming\Mozilla\Firefox\Profiles\o20xslcp.default-1380539893359"</FIREFOXPROFILE>-->
+	<!-- ********* MANDATORY TEST URLs ********* -->
+	   <BASEURL>https://google.com</BASEURL>
+	<!-- ##  Bede Back Office   ## -->		
+	<IDEA_NP01>https://google.com</IDEA_NP01>	
+	<Username>Trans001</Username>
+	<Password>test123</Password>
+	<Username_Mb>test20112015</Username_Mb>
+	<Password_Mb>test123</Password_Mb>
+    <Test_Google>https://mail.google.com</Test_Google>
+ </Environment>

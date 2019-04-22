@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.GotoLineAction$GotoLineDialog_dialogBounds">
+		<item value="404" key="DIALOG_X_ORIGIN"/>
+		<item value="243" key="DIALOG_Y_ORIGIN"/>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item value="false" key="isRegEx"/>
+		<item value="InputTextElement" key="selection"/>
+		<item value="false" key="casesensitive"/>
+		<item value="false" key="incremental"/>
+		<item value="true" key="wrap"/>
+		<item value="false" key="wholeword"/>
+		<list key="findhistory">
+			<item value="InputTextElement"/>
+			<item value="TypeText"/>
+			<item value="KeyboardAction"/>
+			<item value="sendKeys&#x0A;"/>
+			<item value="webElement.sendKeys&#x0A;"/>
+			<item value="webElement.sendKeys(Keys.TAB);&#x0A;"/>
+			<item value="JavaScriptClick"/>
+			<item value="AlertAccept"/>
+			<item value="ScrollToBottom"/>
+			<item value="max"/>
+			<item value="maximize"/>
+			<item value="Users"/>
+			<item value="EvnFilePath"/>
+			<item value="LINK_URL"/>
+			<item value="PropertiesAndConstants.MainDriverWindowHandle"/>
+		</list>
+		<list key="replacehistory">
+			<item value="Rohit Vyas"/>
+			<item value="iprogrammerAutomation"/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item value="290" key="DIALOG_WIDTH"/>
+		<item value="1|.AppleSystemUIFont|11.0|0|COCOA|1|.AppleSystemUIFont" key="DIALOG_FONT_NAME"/>
+		<item value="409" key="DIALOG_HEIGHT"/>
+		<item value="264" key="DIALOG_Y_ORIGIN"/>
+		<item value="869" key="DIALOG_X_ORIGIN"/>
+	</section>
+</section>

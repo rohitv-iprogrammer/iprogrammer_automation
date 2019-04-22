@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><Environment>
+<!-- ##  Common to All  ## -->
+	   <APP>IDEA</APP>
+	   <TESTTYPE>REGRESSION</TESTTYPE>	   	  
+	   <ENVIRONMENT>NP01</ENVIRONMENT>	
+<!-- ********* MANDATORY PARAMETERS ********* -->
+<!-- BROWSER = FF (for FireFox),IE (for InternetExplorer), CH(for Chrome) Default: FF -->
+	   <AppType>MOBILE IOS NATIVE</AppType>
+<!-- WebDriver Settings -->
+	   <OBJREPOSITORY>/rohitv/Documents/iprogrammerAutomation/Repository/</OBJREPOSITORY>
+	   <SCRIPTS>/rohitv/Documents/iprogrammerAutomation/Scripts/</SCRIPTS>
+	   <SUITE>/rohitv/Documents/iprogrammerAutomation/Suites/</SUITE>
+	   <LOGPATH>/rohitv/Documents/iprogrammerAutomation/Log/</LOGPATH>
+	   <EXEREPPATH>/rohitv/Documents/iprogrammerAutomation/Reports/</EXEREPPATH>
+	   <TEMPLATEPATH>/Users/rohitv/Documents/iprogrammerAutomation/Config/Env.xml</TEMPLATEPATH>
+	   <RESULTSTOEXCEL>All</RESULTSTOEXCEL> 
+	   <SCREENSHOTNAME>WDss</SCREENSHOTNAME> 
+	   <STARTFROMHOMEPAGE>NO</STARTFROMHOMEPAGE>
+	   <CLEARCOOKIEFOREACHTEST>NO</CLEARCOOKIEFOREACHTEST> 
+	   <ELEMENTWAITTIMEOUT>60</ELEMENTWAITTIMEOUT> 
+	   <ELEMENTNOTPRESENTTIMEOUT>TDB</ELEMENTNOTPRESENTTIMEOUT>
+	   <PAGELOADTIMEOUT>60</PAGELOADTIMEOUT> 
+	   <JAVASCRIPTTIMEOUT>60</JAVASCRIPTTIMEOUT> 
+	   <STOPIFFAILSTEPSCOUNT>5</STOPIFFAILSTEPSCOUNT>
+	   <VERIFYJAVASCRIPTERRORS>YES</VERIFYJAVASCRIPTERRORS> 
+	   <ALERTAUTOACCEPT>NO</ALERTAUTOACCEPT> 
+<!-- ********* MANDATORY TEST URLs ********* -->
+<!-- ##  Bede Back Office   ## -->		
+	   <IDEA_NP01>https://google.com</IDEA_NP01>	
+	   <Username>vyaasr</Username>
+	   <Password>rohit</Password>
+ </Environment>
